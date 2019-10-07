@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Segoe UI';
+    src: local('Segoe UI'), url(segoeui.ttf)format('font-truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+}
+form{
+    display:flex;
+    flex-direction: column;
+    width: 320px;
+    line-height: 130%;
+    margin: 0 auto;
+    margin-top: 30vh;
+    box-shadow: 0 0px 1px rgba(0, 0, 0, 0.12), 0 0px 1px rgba(0, 0, 0, 0.24);
+    background-color: ghostwhite;
+}
+input{
+    line-height: 170%;
+}
+input[type=submit]{
+    height: 35px;
+    margin-top: 10px;
+    border:none;
+    cursor: pointer;
+    background-color: rgb(26, 170, 170);
+}
+input[type=submit]:hover{
+    background-color: rgb(47, 196, 196);
+}
